@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>McAfee</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+      <div class="container">
+          <div class="row content-row">
+              <!-- Signin template -->
+              <div id="signin-panel" class="form-signin">
+                  <div class="panel panel-default">
+                      <!-- Signin heading template -->
+                      <div class="panel-heading">
+                          <img class="w-25 p-2" src="images/logo.png" alt="McAfee logo" >
+                          <h3 class="panel-title panel-title-login">
+                              <span> | &nbsp;&nbsp;</span>
+                              Log-in to you account
+                          </h3>
+                      </div>
+                      <!-- Signin body template -->                       
+                      <div class="card signin-card">
+                          <div class="panel-body">
+                              <form id="login_form" role="form">
+                                  <fieldset>                                    
+                                      <div class="form-group">
+                                          <div class="inner-addon left-addon">
+                                              <i class="fa fa-user fa-lg icon"></i>
+                                              <input class="form-control" id="login_email" placeholder="E-mail" name="email" type="text">
+                                          </div>
+                                      </div>
+                                      <div class="form-group">
+                                          <div class="inner-addon left-addon">
+                                              <span class="input-group-addon"><i class="fa fa-lock fa-lg"></i></span>
+                                              <input class="form-control" id="login_password" placeholder="Password" name="password" type="password" value="">
+                                          </div>
+                                      </div>
+                                      <input class="btn btn-lg btn-login btn-block" type="submit" value="Login">
+                                  </fieldset>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+                  <br/>
+                  <!-- Error template -->
+                  <div class="alert alert-danger" id="login_error" role="alert">
+                  </div>
+                  <!-- SignUp template -->
+                  <div class="card signin-card">
+                      <div class="text-center"> New to us? 
+                          <a href="#">Sign Up</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Welcome template -->
+              <div id="welcome-panel">
+                  <div class="alert alert-success" role="alert">
+                      <h4 class="alert-heading">WellCome User!</h4>
+                      <h6><div id="welcome-msg"></div></h6>
+                      <p>
+                          <img class="w-25 p-2" src="images/logo.png" alt="McAfee logo" > 
+                          Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
+                      </p>
+                      <hr>
+                      <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                      <div class="text-center"><a class="btn btn-lg btn-logout" role="button" href="index.html">Logout</a></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+</html>
